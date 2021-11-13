@@ -10,9 +10,7 @@ public class Cat {
     private @GeneratedValue @Id Long id;
     private String name;
     private String breed;
-    private Long weight;
-    private Long place;
-
+    private long weight;
     public Cat(){}
 
     public Cat(Long id, String name, String breed, long weight) {
